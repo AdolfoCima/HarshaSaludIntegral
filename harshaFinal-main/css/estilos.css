@@ -1,12 +1,16 @@
 * {
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
-    margin: px;
+    margin: 0px;
 }
 
 container-fluid {
     padding: 0px;
     margin: 0px;
+}
+
+#banner{
+  padding: 0;
 }
 
 a {
@@ -21,6 +25,10 @@ li {
 ul {
     margin: 0px; 
     padding: 0px;;
+}
+
+.navbar {
+padding: 0px !important;
 }
 
 .textoDestacado {
@@ -50,6 +58,7 @@ blockquote {
 
 .seccion {
   margin: 5rem auto;
+  
 }
 .enlaceServicios {
   font-weight: bold;
@@ -149,9 +158,9 @@ strong {
   text-shadow: 0 0 20px black;
 }
 
-.titSize {
+/*.titSize {
   font-size: 6rem;
-}
+}^*/
 
 .divisor {
     background-image: url(../img/Los-diferentes-tipos-de-Yoga.jpg);
@@ -250,6 +259,8 @@ form {
   @media (max-width: 767px) {
     .site-footer {
       padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
     .site-footer .copyright-text,
     .site-footer .social-icons {
@@ -260,6 +271,7 @@ form {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
+    
   }
   .social-icons li {
     display: inline-block;
@@ -315,6 +327,14 @@ form {
       font-weight: 600;
     }
   }
+
+   /* @media (max-width: 478px) {
+    .seccion {
+      margin: 5px;
+      
+    }
+      */
+  
   
   .horarios h2 {
     display: flex;
@@ -325,3 +345,7 @@ form {
   .yoga {
     background-color: #FFA54D;
   }
+
+
+  
+  
